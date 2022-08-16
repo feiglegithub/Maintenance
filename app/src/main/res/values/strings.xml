@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">维修保养</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello">欢迎使用维修保养手环APP，任务将在此展示</string>
+    <string name="known">已知悉</string>
+    <string name="take_an_order">接单</string>
+    <string name="busy">忙碌</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tile_label">维护</string>
+    <string name="tile_description">维修保养</string>
+    <string name="channel_foreground_name">后台服务</string>
+    <string name="channel_foreground_description">后台服务</string>
+    <string name="channel_set_name">设置通知</string>
+    <string name="channel_set_description">设置通知</string>
+    <string name="channel_task_name">任务通知</string>
+    <string name="channel_task_description">任务通知</string>
+    <string name="notification_title">任务通知</string>
+    <string name="permission_denied_tip">没有获取IMEI权限，无法正常请求任务</string>
+    <string name="run_tip">服务用于同步MES系统创建的维修或者保养计划通知</string>
+    <string name="notification_permission_title">权限未授权</string>
+    <string name="notification_network_title">网络异常</string>
+    <string name="network_disconnect_tip">网络连接异常，请前往设置检查WiFi是否连接，网络是否正常，系统一分钟后将重新尝试连接服务器</string>
+    <string name="setting">设置</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="setting_text_1">工号</string>
+    <string name="setting_text_2">前缀</string>
+    <string name="title_activity_work_number">WorkNumberActivity</string>
+    <string name="title_activity_setting1">SettingActivity1</string>
+    <string name="title_activity_setting2">SettingActivity2</string>
+    <string name="confirm">确定</string>
+    <string name="empty_tip">输入值不能为空</string>
+    <string name="saved_number_key">number</string>
+    <string name="saved_prefix_key">prefix</string>
+    <string name="preference_file_key">com.feigle.maintenance</string>
+    <string name="url">http://%1$s.sfygroup.com:810/Server.svc/api/</string>
+    <string name="digits_en">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="api_type">WatchSendController</string>
+    <string name="inv_org_id">1</string>
+    <string name="request_fail">请求服务器失败</string>
+    <string name="run_title">运行中</string>
+    <string name="wifi_disable_tip">WiFi已关闭，请前往设置开启</string>
+    <string name="wifi_enabled_fail">开启wifi失败</string>
+    <string name="wifi_reconnect_fail">wifi重连失败</string>
+</resources>
